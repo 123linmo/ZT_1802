@@ -1,0 +1,19 @@
+package com.api;
+
+public class String_StringBufffer {
+
+	public static void main(String[] args) {
+	String s1="abc";
+	String s2="abc";
+	//equals是比较相等的方法
+	System.out.println(s1.equals(s2));
+	System.out.println(s2==s2);
+	StringBuffer sb1=new StringBuffer("abc");
+	StringBuffer sb2=new StringBuffer("abc");
+	System.out.println(sb1.equals(sb2));
+	System.out.println(sb1==sb2);
+	
+
+	}
+
+}
